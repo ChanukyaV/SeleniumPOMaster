@@ -18,7 +18,7 @@ This repository contains a Maven project implementing a robust automation framew
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/selenium-java-pom-framework.git
+   git clone https://github.com/ChanukyaV/SeleniumPOMaster.git
    ```
 
 2. Open the project in your preferred IDE.
