@@ -12,11 +12,11 @@ public class Configuration {
 
 	public Configuration() {
 		try {
-			FileInputStream fis = new FileInputStream(new File("TestInput.properties"));
+			FileInputStream fis = new FileInputStream(new File("TestRunner.properties"));
 			prop = new Properties();
 			prop.load(fis);
 		} catch (IOException e) {
-			throw new RuntimeException("Please check for TestInput.properties file");
+			throw new RuntimeException("Please check for TestRunner.properties file");
 		}
 	}
 
